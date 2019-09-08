@@ -1,4 +1,4 @@
-package com.example.rxjavademo.db;
+package com.example.rxjavademo.source.db;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

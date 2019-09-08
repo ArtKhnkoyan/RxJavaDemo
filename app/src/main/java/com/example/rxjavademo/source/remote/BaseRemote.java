@@ -1,4 +1,4 @@
-package com.example.rxjavademo.remote;
+package com.example.rxjavademo.source.remote;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

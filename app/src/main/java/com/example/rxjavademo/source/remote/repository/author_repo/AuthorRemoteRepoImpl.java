@@ -1,9 +1,9 @@
-package com.example.rxjavademo.remote.repository.author_repo;
+package com.example.rxjavademo.source.remote.repository.author_repo;
 
 import com.example.rxjavademo.Constants;
 import com.example.rxjavademo.model.Author;
-import com.example.rxjavademo.remote.ApiService;
-import com.example.rxjavademo.remote.BaseRemote;
+import com.example.rxjavademo.source.remote.ApiService;
+import com.example.rxjavademo.source.remote.BaseRemote;
 
 import java.util.List;
 

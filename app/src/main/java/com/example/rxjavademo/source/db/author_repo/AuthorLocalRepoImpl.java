@@ -1,18 +1,17 @@
-package com.example.rxjavademo.db.author_repo;
+package com.example.rxjavademo.source.db.author_repo;
 
-import com.example.rxjavademo.db.AuthorDao;
 import com.example.rxjavademo.model.Author;
+import com.example.rxjavademo.source.db.AuthorDao;
 
 import java.util.List;
 
 import io.reactivex.Observable;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class AuthorLocalRepoImpl implements AuthorLocalRepo {
-    private AuthorDao authorDao;
 
-    public AuthorLocalRepoImpl(AuthorDao authorDao) {
-        this.authorDao = authorDao;
-    }
+    private AuthorDao authorDao;
 
     @Override
     public void save(List<Author> authors) {

@@ -1,4 +1,4 @@
-package com.example.rxjavademo.db;
+package com.example.rxjavademo.source.db;
 
 import androidx.room.Dao;
 import androidx.room.Insert;

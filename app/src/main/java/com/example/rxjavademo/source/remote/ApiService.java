@@ -1,4 +1,4 @@
-package com.example.rxjavademo.remote;
+package com.example.rxjavademo.source.remote;
 
 import com.example.rxjavademo.model.Author;
 
